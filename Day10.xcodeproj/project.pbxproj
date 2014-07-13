@@ -21,6 +21,7 @@
 		33BCC2151970E78900EA3F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BCC1F71970E78800EA3F5B /* UIKit.framework */; };
 		33BCC21D1970E78900EA3F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33BCC21B1970E78900EA3F5B /* InfoPlist.strings */; };
 		33BCC21F1970E78900EA3F5B /* Day10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BCC21E1970E78900EA3F5B /* Day10Tests.m */; };
+		33BCC22A1970E92900EA3F5B /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BCC2291970E92900EA3F5B /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		33BCC21A1970E78900EA3F5B /* Day10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Day10Tests-Info.plist"; sourceTree = "<group>"; };
 		33BCC21C1970E78900EA3F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33BCC21E1970E78900EA3F5B /* Day10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day10Tests.m; sourceTree = "<group>"; };
+		33BCC2281970E92900EA3F5B /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		33BCC2291970E92900EA3F5B /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				33BCC2021970E78800EA3F5B /* AppDelegate.h */,
+				33BCC2281970E92900EA3F5B /* Calculator.h */,
+				33BCC2291970E92900EA3F5B /* Calculator.m */,
 				33BCC2031970E78800EA3F5B /* AppDelegate.m */,
 				33BCC2051970E78800EA3F5B /* Main.storyboard */,
 				33BCC2081970E78800EA3F5B /* ViewController.h */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BCC20A1970E78800EA3F5B /* ViewController.m in Sources */,
+				33BCC22A1970E92900EA3F5B /* Calculator.m in Sources */,
 				33BCC2041970E78800EA3F5B /* AppDelegate.m in Sources */,
 				33BCC2001970E78800EA3F5B /* main.m in Sources */,
 			);
